@@ -1,0 +1,37 @@
+﻿body
+{
+    background-color:#eeeeee;
+}
+.navbar-blue 
+{
+    background-color:#085394;
+}
+.navbar-blue .navbar-brand
+{
+    color:#ffffff;
+    font-size:2.0em;
+    margin-left:5%;
+}
+/*suppress background colour change when the mouse is hovered over the brand text, or when it gets keyboard focus.*/
+.navbar-default .navbar-brand:hover, .navbar-brand:focus
+{
+    background-color:transparent;
+    color:#ffffff;
+
+}
+footer
+{
+    font-size:x-small;
+}
+.navbar-transparent
+{
+    background-color:#eeeeee;
+}
+div#main-content
+{
+    margin-top:1%;
+}
+.navbar-nav li a
+{
+    padding-top:0.5%;
+}
