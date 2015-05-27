@@ -17,6 +17,8 @@
     <TestProjectType>UnitTest</TestProjectType>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <DownloadNuGetExe>True</DownloadNuGetExe>
+    <RequireRestoreConsent>False</RequireRestoreConsent>
     <NuGetPackageImportStamp>16fd4054</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
