@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace Civilised.Controllers
 {
-    public class ImportController
+    public class ImportController:Controller
     {
         public ViewResult Index()
         {
-            return View
+            return View();
         }
     }
 }
