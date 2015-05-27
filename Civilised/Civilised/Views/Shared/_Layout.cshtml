@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>@Page.Title</title>
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/site.css" rel="stylesheet" />
+        @RenderSection("head", required: false)
+    </head>
+    <body>
+        <div id="outer-container" class="container-full">
+            <header class="nav navbar-default navbar-blue">
+                <span class="nav navbar-brand">Civilised</span>
+            </header>
+        </div>
+        <div id="main-content" class="container-fluid">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">@RenderBody()</div>
+                <div class="col-md-4"></div>
+            </div>
+
+        </div>
+        <footer class="nav navbar-default navbar-fixed-bottom navbar-transparent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">Copyright &copy; 2015 &lt;Team Name&gt;. All Rights Reserved.</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">User Agreement</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
