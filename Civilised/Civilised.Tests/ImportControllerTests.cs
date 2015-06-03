@@ -7,14 +7,14 @@ namespace Civilised.Tests
    public class ImportControllerTests
     {
        [Fact]
-       public void ImportControllerInheritsFromController()
+       public void HomeControllerInheritsFromController()
        {
-           Assert.IsAssignableFrom<Controller>(new ImportController());
+           Assert.IsAssignableFrom<Controller>(new HomeController());
        }
        [Fact]
        public void IndexActionReturnsIndexView()
        {
-           var controller = new ImportController();
+           var controller = new HomeController();
            var result = controller.Index() as ViewResult;
            Assert.Empty(result.ViewName);
 

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Civilised.Controllers
 {
-    public class ImportController:Controller
+    public class HomeController:Controller
     {
         public ViewResult Index()
         {
