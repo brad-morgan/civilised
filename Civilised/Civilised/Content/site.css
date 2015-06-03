@@ -35,3 +35,9 @@ div#main-content
 {
     padding-top:0.5%;
 }
+input.btn-submit
+{
+    background-color:#085394;
+    color:#ffffff;
+    margin-top:1.25%;
+}
