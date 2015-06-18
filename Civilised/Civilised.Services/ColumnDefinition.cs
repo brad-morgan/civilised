@@ -8,6 +8,8 @@ namespace Civilised.Services
     /// <summary>
     /// Defines the name of a column within Tribal timetable input.
     /// </summary>
+//FIXME: Implement GetHashCode once Equals is implemented. Supressing this for now so Equals can be tested.
+#pragma warning disable 0659
     public class ColumnDefinition
     {
         private string name;
@@ -25,6 +27,39 @@ namespace Civilised.Services
         /// Gets or sets a value determining whether this column must be present in order for a timetable to be considered valid.
         /// </summary>
         public bool Mandatory { get; set; }
+        /// <summary>
+        /// Determines whether the specified <see cref="ColumnDefinition"/> is equal to the current instance.
+        /// </summary>
+        /// <param name="obj">The instance to compare.</param>
+        /// <returns>true if the instances are equal, false otherwise.</returns>
+        public bool Equals(ColumnDefinition obj)
+        {
+            if(obj == null)
+            {
+                return false;
+            }
+            else
+            {
+                return name == obj.name && Mandatory == obj.Mandatory;
+            }
+        }
+        /// <summary>
+        /// Determines whether the current <see cref="object"/> is equal to the specified instance.
+        /// </summary>
+        /// <param name="obj">The object to compare</param>
+        /// <returns>true if the instances are equal, false otherwise.</returns>
+        public override bool Equals(object obj)
+        {
+            if(obj == null)
+            {
+                return false;
+            }
+            if(obj is ColumnDefinition)
+            {
+                return Equals(obj as ColumnDefinition);
+            }
+            return base.Equals(obj);
+        }
 
         private void SetName(string value)
         {

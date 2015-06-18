@@ -32,6 +32,13 @@ namespace Civilised.Tests
            var columnDefinition = new ColumnDefinition();
            columnDefinition.Name = "A Valid Name";
        }
+       [Fact]
+       public void ColumnsDefinitionsWithSameNameAndMandatoryValueAreEqual()
+       {
+           var columnA = new ColumnDefinition() { Name = "Test", Mandatory = true };
+           var columnB = new ColumnDefinition() { Name = "Test", Mandatory = true };
+           Assert.Equal(columnA, columnB);
+       }
 
     }
 }
