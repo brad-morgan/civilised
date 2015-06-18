@@ -26,6 +26,12 @@ namespace Civilised.Tests
            var columnDefinition = new ColumnDefinition();
            Assert.Throws<ArgumentException>(() => { columnDefinition.Name = emptyOrWhiteSpace; });
        }
+       [Fact]
+       public void NameCanBeSetToAValidValue()
+       {
+           var columnDefinition = new ColumnDefinition();
+           columnDefinition.Name = "A Valid Name";
+       }
 
     }
 }
