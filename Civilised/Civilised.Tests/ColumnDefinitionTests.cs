@@ -39,6 +39,13 @@ namespace Civilised.Tests
            var columnB = new ColumnDefinition() { Name = "Test", Mandatory = true };
            Assert.Equal(columnA, columnB);
        }
+       [Fact]
+       public void EqualColumnDefinitionsHaveSameHashCode()
+       {
+           var columnA = new ColumnDefinition() { Name = "Test", Mandatory = true };
+           var columnB = new ColumnDefinition() { Name = "Test", Mandatory = true };
+           Assert.Equal(columnA.GetHashCode(), columnB.GetHashCode());
+       }
 
     }
 }

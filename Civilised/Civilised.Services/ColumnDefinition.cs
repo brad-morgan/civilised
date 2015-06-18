@@ -60,6 +60,27 @@ namespace Civilised.Services
             }
             return base.Equals(obj);
         }
+        /// <summary>
+        /// Gets a unique hash code for this instance.
+        /// </summary>
+        /// <returns>A hash code for the instance.</returns>
+        public override int GetHashCode()
+        {
+            //Credit to John Skeet for his excellent explaination of this algorithm:
+            //http://stackoverflow.com/questions/263400/what-is-the-best-algorithm-for-an-overridden-system-object-gethashcode
+
+           //Doesn't matter if this wraps, we're using the value as an identity, mathmatical precision is not the goal here. unchecked will cause the int to wrap rather than
+           //throw an exception if the calculation overflows.
+            unchecked
+            {
+                //Using two large primes as multipliers will help with uniqueness, and probably distrobution of hash.
+                int hash = 246817;
+                int multiplier = 163861;
+                hash = hash * multiplier + name.GetHashCode();
+                hash = hash * multiplier + Mandatory.GetHashCode();
+                return hash;
+            }
+        }
 
         private void SetName(string value)
         {
