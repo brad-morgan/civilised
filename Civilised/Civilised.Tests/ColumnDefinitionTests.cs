@@ -86,6 +86,15 @@ namespace Civilised.Tests
             }
             Assert.Equal(original, deserialized);
         }
+        //"Trim" refers to removing whitespace at the start and end of a string.
 
+        [Fact]
+        public void WhitespaceIsTrimmedFromNameValues()
+        {
+            var valueWithWhitespace = " Test Value\t";
+            var valueWithoutWhitespace = "Test Value";
+            var column = new ColumnDefinition() { Name = valueWithWhitespace };
+            Assert.Equal(valueWithoutWhitespace, column.Name);
+        }
     }
 }

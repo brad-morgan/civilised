@@ -88,7 +88,7 @@ namespace Civilised.Services
             var ex = ExceptionFor.NullEmptyOrWhitespace(ref value, "value");
             if(ex==null)
             {
-                name = value;
+                name = value.Trim();
             }
             else
             {
