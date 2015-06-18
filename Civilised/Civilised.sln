@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilised", "Civilised\Civi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilised.Tests", "Civilised.Tests\Civilised.Tests.csproj", "{787E11E2-A2A7-4955-BD70-76D1E4F48D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilised.Services", "Civilised.Services\Civilised.Services.csproj", "{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{787E11E2-A2A7-4955-BD70-76D1E4F48D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787E11E2-A2A7-4955-BD70-76D1E4F48D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787E11E2-A2A7-4955-BD70-76D1E4F48D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
