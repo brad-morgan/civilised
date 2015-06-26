@@ -98,10 +98,6 @@
     <Compile Include="TimetableEventTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Civilised.Services\Civilised.Services.csproj">
-      <Project>{186A0B3D-C8B3-4B8D-BFC4-2FBD0CF57B1F}</Project>
-      <Name>Civilised.Services</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Civilised\Civilised.csproj">
       <Project>{45FD78D3-5E40-4D8F-8599-0B03C2585AE3}</Project>
       <Name>Civilised</Name>
