@@ -122,6 +122,8 @@
     <Compile Include="Models\TimetableEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ExceptionFor.cs" />
+    <Compile Include="Services\TimetableReader.cs" />
+    <Compile Include="Services\TribalHtmlTimetableReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

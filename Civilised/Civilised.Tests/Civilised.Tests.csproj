@@ -96,6 +96,7 @@
     <Compile Include="ImportControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimetableEventTests.cs" />
+    <Compile Include="TribalHtmlTimetableReaderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Civilised\Civilised.csproj">

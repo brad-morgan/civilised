@@ -28,5 +28,6 @@ namespace Civilised.Tests
            var attributes = property.GetCustomAttributes(typeof(RequiredAttribute));
            Assert.NotEmpty(attributes);
        }
+       //FIXME: Need to add tests to do range checks on dates and times. e.g. StartTime can't be after end time etc.
     }
 }
