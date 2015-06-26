@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Civilised.Model
+namespace Civilised.Services
 {
     /// <summary>
     /// Defines the name of a column within Tribal timetable input.
     /// </summary>
-//FIXME: Implement GetHashCode once Equals is implemented. Supressing this for now so Equals can be tested.
-#pragma warning disable 0659
     public class ColumnDefinition
     {
         private string name;

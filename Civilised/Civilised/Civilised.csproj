@@ -118,9 +118,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ColumnDefinition.cs" />
+    <Compile Include="Services\ColumnDefinition.cs" />
     <Compile Include="Models\TimetableEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ExceptionFor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
