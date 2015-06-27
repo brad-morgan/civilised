@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using Civilised.Services;
 namespace Civilised.Models
 {
     /// <summary>
@@ -51,5 +52,13 @@ namespace Civilised.Models
         /// <example>L203</example>
         [Required]
         public string Location { get; set; }
+        /// <summary>
+        /// Generates a hash code for this instance.
+        /// </summary>
+        /// <returns>A hash code value.</returns>
+        public override int GetHashCode()
+        {
+           return HashCodeGenerator.GenerateHashCode(14341, 14243, CourseCode, Description, StartDate, EndTime, StartTime, EndTime, Location);
+        }
     }
 }

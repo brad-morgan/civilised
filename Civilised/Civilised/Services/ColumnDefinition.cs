@@ -32,7 +32,7 @@ namespace Civilised.Services
         /// <returns>true if the instances are equal, false otherwise.</returns>
         public bool Equals(ColumnDefinition obj)
         {
-            if(obj == null)
+            if (obj == null)
             {
                 return false;
             }
@@ -48,11 +48,11 @@ namespace Civilised.Services
         /// <returns>true if the instances are equal, false otherwise.</returns>
         public override bool Equals(object obj)
         {
-            if(obj == null)
+            if (obj == null)
             {
                 return false;
             }
-            if(obj is ColumnDefinition)
+            if (obj is ColumnDefinition)
             {
                 return Equals(obj as ColumnDefinition);
             }
@@ -64,27 +64,17 @@ namespace Civilised.Services
         /// <returns>A hash code for the instance.</returns>
         public override int GetHashCode()
         {
-            //Credit to John Skeet for his excellent explaination of this algorithm:
-            //http://stackoverflow.com/questions/263400/what-is-the-best-algorithm-for-an-overridden-system-object-gethashcode
+            int seed = 246817;
+            int multiplier = 163861;
 
-           //Doesn't matter if this wraps, we're using the value as an identity, mathmatical precision is not the goal here. unchecked will cause the int to wrap rather than
-           //throw an exception if the calculation overflows.
-            unchecked
-            {
-                //Using two large primes as multipliers will help with uniqueness, and probably distrobution of hash.
-                int hash = 246817;
-                int multiplier = 163861;
-                hash = hash * multiplier + name.GetHashCode();
-                hash = hash * multiplier + Mandatory.GetHashCode();
-                return hash;
-            }
+            return HashCodeGenerator.GenerateHashCode(seed, multiplier, name.GetHashCode(), Mandatory.GetHashCode());
         }
 
         private void SetName(string value)
         {
             //Test whether the value being set is null or whitespace, if not, set value, if it is, throw the exception in ex.
             var ex = ExceptionFor.NullEmptyOrWhitespace(ref value, "value");
-            if(ex==null)
+            if (ex == null)
             {
                 name = value.Trim();
             }
@@ -92,7 +82,7 @@ namespace Civilised.Services
             {
                 throw ex;
             }
-            
+
         }
     }
 }

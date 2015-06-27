@@ -125,6 +125,7 @@
     <Compile Include="Models\TimetableEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ExceptionFor.cs" />
+    <Compile Include="Services\HashCodeGenerator.cs" />
     <Compile Include="Services\TimetableDocument.cs" />
     <Compile Include="Services\TribalHtmlTimetableDocument.cs" />
   </ItemGroup>
