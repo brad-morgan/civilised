@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TribalTimetableHtml" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+&lt;!-- saved from url=(0035)https://ebs4portal-live.cpit.ac.nz/ --&gt;
+&lt;html lang="en"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&lt;meta name="Content-Script-Type" content="text/javascript"&gt;&lt;link rel="stylesheet" type="text/css" href="./Welcome to ebs 4_files/jquery-ui-1.8.17.custom.css"&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.4.4-vsdoc.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.4.4.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.4.4.min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.6.3-vsdoc.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.6.3.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-1.6.3.min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-ui-1.8.16.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-ui-1.8.16.min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery-ui-1.8.17.custom.min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script src="./Welcome to ebs 4_files/jquery.scrollTo-min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_ErrorControl.js"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt; function hideMoreInfo(id, link){ if($.trim(link).length == 0) { $('#' + id).hide(); } }&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/ebs_portal_search.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_BreadCrumb.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/ebs_ContentLauncher.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/ebs_portal_fees_popup.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_HierarchyRepeater.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_ToolBar.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_DragDrop.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_Shared.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_SpawnPopup.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_Layout.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/ebs_CreateHtmlImage.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/ebs_HtmlElementVisibility.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="./Welcome to ebs 4_files/TT_ClientBridge.js"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_AfterDisplayEvents= []&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_BeforePostRequests= []&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_CleanUpRequests= []&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_DockedTargets= []&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_EdgeTargets= [["2","TopEdge","","2","0","0","100","170","Navigation"],["102","BottomEdge","","3","0","20","100","20","Footer"]]&lt;/script&gt;&lt;script type="text/javascript"&gt;TT_Settings= ["3","30","200","100","LM_","200","200","/ebs_common/skin/21/dockpin.gif","/ebs_common/skin/21/dockpinsel.gif","/ebs_common/skin/21/dockunpin.gif","/ebs_common/skin/21/dockunpinsel.gif","/ebs_common/skin/46/pixel.gif","0","1","0","ebs4 is loading please wait...","1","/ebs_common/skin/21/indicator.gif"]&lt;/script&gt;&lt;script type="text/javascript"&gt;ttlayout_initLayout();&lt;/script&gt;&lt;script type="text/javascript"&gt; ttLayout_SetServerURL('http://ebs4Portal-live.cpit.ac.nz/'); &lt;/script&gt;&lt;script type="text/javascript"&gt;window.onresize = function(){ttlayout_LayoutMainDivResize();}; window.onunload = function(){ttlayout_CleanUpRequests();}; window.onload = function(){ttlayout_LayoutMainDIVLoad();launcherPath="http://ebs4Portal-live.cpit.ac.nz/ContentInterworking/ContentLauncher.aspx";}&lt;/script&gt;&lt;title&gt;Welcome to ebs 4&lt;/title&gt;&lt;link rel="shortcut icon" href="https://ebs4portal-live.cpit.ac.nz/ebs_common/skin/21/favicon.ico" type="image/vnd.microsoft.icon"&gt;&lt;link rel="icon" href="https://ebs4portal-live.cpit.ac.nz/ebs_common/skin/21/favicon.ico" type="image/vnd.microsoft.icon"&gt;&lt;link rel="stylesheet" type="text/css" media="screen" href="./Welcome to ebs 4_files/screen.css"&gt;&lt;link rel="stylesheet" type="text/css" media="print" href="./Welcome to ebs 4_files/print.css"&gt;&lt;link rel="stylesheet" type="text/css" href="./Welcome to ebs 4_files/1000000001.css"&gt;&lt;/head&gt;&lt;body&gt;&lt;form name="Form1" method="post" action="" id="Form1"&gt;
+&lt;div&gt;
+&lt;input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""&gt;
+&lt;input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""&gt;
+&lt;input type="hidden" name="__COMPRESSEDVIEWSTATE" id="__COMPRESSEDVIEWSTATE" value="H4sIAEMp2McA/+2Y2VIiSRSG841UlBm9ZBUYwSlkkbpTbEGWaXoAoXn6+c5fCVWsTV/MRUd0VFRkZeZZ/7NkwoVbuIL724Uu425d0eVcw3XdytXcwDXdjau6PPM0Y4/9NrMsqxX2Uq4FXZdx5D7dqxsyDtl9cnX3Af89NN+Rm0dy2nX4vkJmB54e8wf0BKzUmAdu5h6hKyP5Ef4rJNm8gjwbC6x34K24MXaMmX9Bz4i3j3yzoyL7m9CHnj5EfgHfqoxl5Hegq0pfzl3yhNK3wo423GavyTa6Md9DxgY0H4xt/BmwtwKdoSth/ZK9N/y7k3+23xIOLeZPzAN0pKCYYqHR95H4ykod/a/wre0tuwn7thtIzxs+1dkfCdd79PTxtMX+iL0SexP4x3yvsOfTfRW2GfzM6Mm7i82TQWZm76ny9vx3AW+b6BkjPfJzydz8qSH5gVWz8wGfa4pvG+tt/ADVHntj+RvHfwCqhucAyXM05YjCgnkOFPLYbPIvGZ+ROiLj2mTBSPM6ckz/AsTKoJxFk8Vhib8deGbQGQ519LwI57nnj/BcwBP7m0Pmz/j1j/RbfJayf6S8DmVnAX3P0C2kp4jGJnEw+0P4qqxlNtiXsDvKh5D9rvCZK+/W8e7jXwd5hlfkd7Qeou9FOM59/pSUX31WDPc1/9UWneVJpKco/FLQp/H+WbXRxb7IP9uP+OMnypgeaOc0DtFhfk2EexE7W8rTAfpySG2h74kxL5zSxMT03kHXRXeaeviRXXHe2Vdu8/2N2Vd9ZcF2vWpITlj/Ey8aaIlWhz7f7YkzfQFfvF5Bq8XzRXXdx16bj2RHD/ta6hJzME5h/1x1VRFOJeI5V1+bqc6GcE98HvTlj+XPFzgLG20NL2fq63qguK37YcSXQua/2re6flMVdlm79nPjmyXy0ere7L329W54r7RfVL2NlYeNhLxywvtsIspJS0tw1eDrSq7lVRzPJfZH9XEp3AyXKK5Z5VFFfaipejT+IIG35dod62s/usSj5d59X/gDuQHc7+zv9oveJt5RHgaJ+BcS8pNfxQPrEX8Gyd+w/lHdqQxeva394t487o9TvMurSqJcsbEJFn1QbmGLzerg0uWNuK2jpZCwnuc28yw4dOhOpi9AbkZ9yM7FADxr6kejrfwz3G4Yre99omPJrODrdib8mnjVgK/o8zLuW9YX7VwImF/r3MoIVzvPs+gqMPbQM5Q9dn7Gdlre5BN+jGV3xJc7yremW/tnJ11N+XSv/tlVnxwoj9LYmFUWLnQOzlgP1Y+nns7O63vhEaqOs9TGvv669C/lT0lnz8D345XyrSnM28pPuw/c8BpdiFzD5U196Fn5k0VWWv332tdnrO9W/vWF/8umz5u+gHz6YD2qzzv8MrktcuRBcTI7TOOFvwck70VRfdh94+p/vxeNhcMVmDzKvvU59q54BFhShd5uMDYWfb4UfDzL0OWUP7U9PMvCOyUc674fBjrbg5N5ciifJkfp7rfowk3cc6C7oPuu43cp+yqMFo9A50mwid+t+0t2tXx9FcH9bUPX26IL/X0tk/DjsN52Qu/U39+yP6CbJXBZbOTHOJd8Hff9fWeuc/SQnbv+rPHP/BReH0fxinH4MT7bfWQ/frt2hztxWB7Nu2ICDxuHvr8m6ewciflP6U3idW6evKI17gdx/sZ4prbywPr07KCd+/5UEnTn4hXlxSG8YhzKJ9YP1V94IH7H89LGqfrLMfy245vf8vO03O9bcs/P4/PtedXvv7jPxH0npu/v5Ema+1o1UV+n5HfVf8+L69tOXBc6B471ke26PWXPrtzLjdz87z77i/VZu5dt99ldPSX9v2LncPl3//1l+m9G9+Vz7tfGV9mr2zgPevovJfpfYuLtGzG/V7z+A/AJyLvQEwAA"&gt;
+&lt;input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value=""&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+//&lt;![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]&gt;
+&lt;/script&gt;
+
+&lt;a id="epb" href="javascript:__doPostBack('epb','')"&gt;&lt;/a&gt;&lt;div id="Ectl-7724" style="visibility:hidden;z-index:0;position:absolute;top:0px;left:0px;width:300px;height:150px"&gt;&lt;/div&gt;&lt;div id="Ectl-15861" style="visibility:hidden;z-index:0;position:absolute;top:0px;left:0px;width:300px;height:150px"&gt;&lt;/div&gt;&lt;input name="LM$ctl00" type="hidden" id="MainContextPos" value="0"&gt;&lt;input id="ReturnTargets" name="ReturnTargets" value="" type="hidden"&gt;&lt;div id="prevent" align="left" style="font-size: smaller; width: 50px; position: absolute; top: 150px; left: 50px; visibility: hidden; z-index: 999; background-color: white;"&gt;&lt;/div&gt;&lt;div id="progressDialog" align="left" style="font-size: smaller; width: 50px; position: absolute; top: 1021px; left: 1px; visibility: hidden; z-index: 999; background-color: white;"&gt; &lt;table cellspacing="0" cellpadding="0" width="100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td id="progressMessage" class="lmessage"&gt;&lt;table cellspacing="0" cellpadding="0" class="loadingBorder"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="loadingMessage"&gt;&lt;img src="./Welcome to ebs 4_files/indicator.gif"&gt; &lt;/td&gt;&lt;td class="loadingMessage w100" nowrap=""&gt;ebs4 is loading please wait...&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;
+                        ttlayout_updateProgress(true,'ebs4 is loading please wait...',false);&lt;/script&gt;&lt;div id="LM_TopedgeDIV" style="position:absolute;margin:0px;left:0px;top:0px;width:100%;height:170px;" class="tedge"&gt;
+&lt;!-- $Revision: 1 $ $Date: 2010-08-21 15:35:12+01:00 $ $Archive: /TRUNK/EBS/ebs4/TribalTech.EBS.Web.Portal/Navigation/Navigation.ascx $ --&gt;
+&lt;div class="skipnav"&gt;&lt;a href="https://ebs4portal-live.cpit.ac.nz/#maincontent"&gt;Skip to main content&lt;/a&gt;&lt;/div&gt;
+&lt;div class="pageCentreNav"&gt;
+&lt;!-- &lt;td style="width:200" class="align4 ncollegelogo"&gt;
+        &lt;div id="LM_2_7720"&gt;
+	&lt;img src="/ebs_common/skin/46/logo.gif" alt="Logo" /&gt;
+&lt;/div&gt;&lt;/td&gt;--&gt;    
+
+&lt;table class="w100"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="navhead"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;  
+&lt;table class="headermenu"&gt;&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://ebs4portal-live.cpit.ac.nz/default.aspx"&gt;PORTAL HOMEPAGE&lt;/a&gt;
+&lt;a href="https://ebs4portal-live.cpit.ac.nz/default.aspx?ng=PublicProspectus&amp;na=ReloadCourseList&amp;m=41"&gt;PROGRAMMES &amp;amp; COURSES&lt;/a&gt;
+&lt;a href="https://ebs4portal-live.cpit.ac.nz/Redirect.ashx?Show=ENQUIRY"&gt;ENQUIRY&lt;/a&gt;
+&lt;a href="http://www.cpit.ac.nz/library"&gt;LIBRARY&lt;/a&gt;
+&lt;a href="http://www.cpit.ac.nz/"&gt;CPIT WEBSITE&lt;/a&gt;
+&lt;a href="http://www.cpit.ac.nz/about-us/contact-us"&gt;CONTACT US&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class="logout"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div id="LM_2_9040" class="inline"&gt;
+&lt;div&gt;
+	&lt;table cellspacing="0" cellpadding="0"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="align6" nowrap="nowrap"&gt;&lt;a href="https://ebs4portal-live.cpit.ac.nz/logout.aspx?session_id=b4e2d09c-cc89-4574-8289-e82d818b2f2a&amp;user_id=28121" style="cursor:pointer;cursor:hand;text-decoration:underline;" tabindex="0"&gt;Logout&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="align6 avatar"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; 	
+&lt;table class="ntabs5"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div id="LM_2_1000002983" class="inline"&gt;
+	&lt;div id="LM_2_1000002983_1000002983ttTable" class="toolbar"&gt;&lt;ul class="hlist"&gt;&lt;li&gt;&lt;table cellpadding="0" cellspacing="0"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="ntabtl"&gt;&lt;/td&gt;
+			&lt;td class="ntabt"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabl"&gt;&lt;/td&gt;
+			&lt;td class="ntabm"&gt;&lt;a onmouseout="return tttb(13,this,event)" lo="YourEnrolments" mover="View your enrolments history" class="ntablnk" onmouseover="return tttb(12,this,event)" title="View your enrolments history" onblur="tttb(31,this,event)" ng="Learning" na="LearningViewEnrolments" href="javascript:__doPostBack('LM$2$1000002983$ctl10','')"&gt;Your enrolments&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="ntabr"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabbl"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/li&gt;&lt;li&gt;&lt;table cellpadding="0" cellspacing="0"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="ntabtl"&gt;&lt;/td&gt;
+			&lt;td class="ntabt"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabl"&gt;&lt;/td&gt;
+			&lt;td class="ntabm"&gt;&lt;a onmouseout="return tttb(13,this,event)" lo="YourResults" mover="View your results" class="ntablnk" onmouseover="return tttb(12,this,event)" title="View your results" onblur="tttb(31,this,event)" ng="Learning" na="LearningViewAttainments" href="javascript:__doPostBack('LM$2$1000002983$ctl25','')"&gt;Your results&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="ntabr"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabbl"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/li&gt;&lt;li&gt;&lt;table cellpadding="0" cellspacing="0"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="ntabtl2"&gt;&lt;/td&gt;
+			&lt;td class="ntabt2"&gt;&lt;/td&gt;
+			&lt;td class="ntabtr2"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabl2"&gt;&lt;/td&gt;
+			&lt;td class="ntabm2"&gt;&lt;a onmouseout="return tttb(13,this,event)" lo="YourTimetable" mover="View your timetable" class="ntablnk2" onmouseover="return tttb(12,this,event)" title="View your timetable" onblur="tttb(31,this,event)" ng="Learning" na="LearningViewTimetable" href="javascript:__doPostBack('LM$2$1000002983$ctl40','')"&gt;Your timetable&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="ntabr2"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabbl2"&gt;&lt;/td&gt;
+			&lt;td class="ntabb2"&gt;&lt;/td&gt;
+			&lt;td class="ntabbm2"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/li&gt;&lt;li&gt;&lt;table cellpadding="0" cellspacing="0"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="ntabtl"&gt;&lt;/td&gt;
+			&lt;td class="ntabt"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabl"&gt;&lt;/td&gt;
+			&lt;td class="ntabm"&gt;&lt;a onmouseout="return tttb(13,this,event)" lo="YourDetails" mover="View your details" class="ntablnk" onmouseover="return tttb(12,this,event)" title="View your details" onblur="tttb(31,this,event)" ng="Learning" na="LearningViewPersonProfile" href="javascript:__doPostBack('LM$2$1000002983$ctl55','')"&gt;Your details&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="ntabr"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabbl"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/li&gt;&lt;li&gt;&lt;table cellpadding="0" cellspacing="0" class="tbar"&gt;
+		&lt;tbody&gt;&lt;tr&gt;
+			&lt;td class="ntabtl"&gt;&lt;/td&gt;
+			&lt;td class="ntabt"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabl"&gt;&lt;/td&gt;
+			&lt;td class="ntabm"&gt;&lt;a onmouseout="return tttb(13,this,event)" lo="YourReports" mover="View your reports" class="ntablnk" onmouseover="return tttb(12,this,event)" title="View your reports" onblur="tttb(31,this,event)" ng="Learning" na="OpenPublicReports" href="javascript:__doPostBack('LM$2$1000002983$ctl70','')"&gt;Your correspondence&lt;/a&gt;&lt;/td&gt;
+			&lt;td class="ntabr"&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class="ntabbl"&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+			&lt;td class=""&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;&lt;/table&gt;
+	&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt;
+			                     
+		                      
+   
+		            
+		            
+&lt;table class="w100"&gt;&lt;tbody&gt;&lt;tr&gt;                
+                    &lt;td class="slabel"&gt;&lt;label id="LM_2_ProspLabel"&gt;&lt;/label&gt;&lt;/td&gt;
+                    &lt;td class="sarea"&gt;&lt;/td&gt;
+	                &lt;td class="sbutton"&gt;&lt;/td&gt;
+                    &lt;!----&gt;
+                    &lt;td class="tool"&gt;&lt;/td&gt;
+                    
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+	    
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;div id="LM_BottomedgeDIV" style="position: absolute; margin: 0px; left: 0px; top: 1018px; width: 100%; height: 20px;" class="tedge"&gt;
+&lt;!-- $Revision: 1 $ $Date: 2010-08-21 15:35:13+01:00 $ $Archive: /TRUNK/EBS/ebs4/TribalTech.EBS.Web.Portal/Targets/Footer.ascx $ --&gt;
+&lt;div id="footer" class="pageCentreNav"&gt;
+	&lt;!--&lt;img src="/ebs_common/skin/21/poweredbytt.gif" alt="Powered by Tribal Technology" /&gt;--&gt;
+	&lt;div class="foot"&gt;
+		&lt;div class="GenEnq"&gt;&lt;b&gt;General Enquiries&lt;/b&gt; 0800 24 24 76&lt;/div&gt;
+		&lt;div class="emailcpit"&gt;&lt;b&gt;Email  &lt;/b&gt;&lt;a href="mailto:info@cpit.ac.nz"&gt;info@cpit.ac.nz&lt;/a&gt;&lt;/div&gt;
+		&lt;div class="copyright"&gt;&lt;span&gt;Te Matapuna o te Matauraka&lt;/span&gt;2012 CPIT&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div id="LM_outerDockDiv" style="left: 0px; top: 170px; width: 1920px; height: 865px;" onmousemove="ttlay(14,this,event)"&gt;&lt;div id="LM_topAutoHideSpan" class="tpinback" style="display: none; width: 1920px;"&gt;&lt;/div&gt;&lt;div id="LM_leftAutoHideSpan" class="tpinback" style="display: none; height: 865px; top: 0px;"&gt;&lt;/div&gt;&lt;div id="LM_rightAutoHideSpan" class="tpinback" style="display: none; height: 865px; top: 0px;"&gt;&lt;/div&gt;&lt;div id="LM_bottomAutoHideSpan" class="tpinback" style="display: none; width: 1920px; top: 843px; height: 22px;"&gt;&lt;/div&gt;&lt;div id="LM_innerDockDiv" style="top: 0px; left: 0px; width: 1919px; height: 864px;"&gt;&lt;div id="LM_MainContextTarget" style="top: 2px; left: 2px; width: 1907px; height: 857px; background-image: url(https://ebs4portal-live.cpit.ac.nz/ebs_common/skin/21/mainback.gif);" class="tmain" element="mc" onmousedown="ttlay(10,this,event)"&gt;
+&lt;table class="w100" &lt;tr=""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="topbanner"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class="pageCentre"&gt;
+&lt;a name="maincontent" id="maincontent"&gt;&lt;/a&gt;
+&lt;span id="LM_1_15860"&gt;&lt;span class="cgroup w100"&gt;Your timetable&lt;/span&gt;&lt;/span&gt;
+&lt;div id="LM_1_15861"&gt;
+
+&lt;/div&gt;
+&lt;table cellpadding="0" cellspacing="0" class="breadCrumbOuter"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="LM_1_15862"&gt;
+	&lt;a id="LM_1_15862bcPb" href="javascript:__doPostBack('LM$1$15862bcPb','')"&gt;&lt;/a&gt;&lt;input type="hidden" name="LM$1$15862crumbGuid" id="LM_1_15862crumbGuid" value=""&gt;&lt;script type="text/javascript"&gt;TT_15862BreadCrumb_BreadCrumb = ["15862BreadCrumb","LM_1_15862crumbGuid","LM_1_15862bcPb"];&lt;/script&gt;&lt;script type="text/javascript"&gt;ttbreadCrumb_init('15862BreadCrumb');&lt;/script&gt;
+&lt;/div&gt;
+&lt;!--&lt;span id="LM_1_1000003731"&gt;&lt;span class="cgroup w100"&gt;From the start of the 2013 academic year you will be able to view your timetable in the CPIT Student Portal. For 2012, you will still view your timetable via the Timetable Viewer.  &lt;/span&gt;&lt;/span&gt;--&gt;
+&lt;br&gt;
+&lt;!----&gt;
+&lt;br&gt;
+&lt;p&gt;You can now view your timetable graphically presented in the &lt;a href="http://studentinfo.cpit.ac.nz/"&gt;CPIT Student Info page &lt;u&gt;(http://StudentInfo.cpit.ac.nz)&lt;/u&gt;.&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;!--Timetable--&gt;					
+&lt;table id="LM_1_Timetable" class="w100 control"&gt;
+	&lt;tbody&gt;&lt;tr&gt;
+		&lt;td class="ch7"&gt;&lt;/td&gt;
+		&lt;td class="ch8"&gt;&lt;/td&gt;
+		&lt;td class="ch9"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ch4"&gt;&lt;/td&gt;
+		&lt;td class="ch5"&gt;
+			&lt;h2&gt;&lt;span id="LM_1_15863"&gt;&lt;span class="cgroup w100"&gt;Timetable of Events&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;&lt;/td&gt;
+		&lt;td class="ch6"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="cb4"&gt;&lt;/td&gt;
+		&lt;td class="cb5"&gt;
+			&lt;ul id="LM_1_1000003770" class="vlist"&gt;
+			&lt;table class="w100" border="0"&gt;
+				&lt;tbody&gt;&lt;tr class="fixedHeader15258"&gt;
+					&lt;td class="hierarchyhead align5"&gt;Session&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Event Type&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Course(s)&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Description&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Day of Week&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Start Date&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;End Date&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Start Time&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;End Time&lt;/td&gt;&lt;td class="hierarchyhead align5"&gt;Room&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr id="LM_1_1000003770_1" class="fixedHeader15258" parentkey="1000003770" laststate="true"&gt;
+					&lt;td class="hierarchydata align4"&gt;2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Comp Lab&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;BCCS283V1&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Network Infrastructure&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Tuesday&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;24/02/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;9/06/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;09:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;12:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;S265&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr id="LM_1_1000003770_2" class="fixedHeader15258" parentkey="1000003770" laststate="true"&gt;
+					&lt;td class="hierarchydata align4"&gt;2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Class&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;BCIS206V1&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Professional Practice&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Tuesday&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;24/02/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;9/06/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;13:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;15:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;N211&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr id="LM_1_1000003770_3" class="fixedHeader15258" parentkey="1000003770" laststate="true"&gt;
+					&lt;td class="hierarchydata align4"&gt;2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Class&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;BCIS206V1&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Professional Practice&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Tuesday&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;24/02/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;9/06/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;13:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;15:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;L202&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr id="LM_1_1000003770_4" class="fixedHeader15258" parentkey="1000003770" laststate="true"&gt;
+					&lt;td class="hierarchydata align4"&gt;2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Class&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;BCIS206V1&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Professional Practice&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Thursday&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;26/02/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;11/06/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;13:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;15:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;L202&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr id="LM_1_1000003770_5" class="fixedHeader15258" parentkey="1000003770" laststate="true"&gt;
+					&lt;td class="hierarchydata align4"&gt;2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Class&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;BCIS206V1&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Professional Practice&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;Thursday&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;26/02/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;11/06/2015&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;13:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;15:00&lt;/td&gt;&lt;td class="hierarchydata align4"&gt;L249&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+					&lt;td class="hierarchyfooter" colspan="10"&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;&lt;/table&gt;
+		&lt;/ul&gt;&lt;/td&gt;
+		&lt;td class="cb6"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="cf1"&gt;&lt;/td&gt;
+		&lt;td class="cf2"&gt;&lt;/td&gt;
+		&lt;td class="cf3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;div id="LM_dragDiv" style="border:ridge 3px  #DDD3D3;display:none;position:absolute;top:50px;left:100px;width:300px;height:250px;z-index:2500;background:url(/ebs_common/skin/46/pixel.gif) repeat" element="dd" onmouseup="ttlay(11,this,event)"&gt;&lt;/div&gt;&lt;div id="LM_splitterDiv" style="display:none;position:absolute;top:50px;left:100px;width:300px;height:250px;z-index:500" class="tsplittersel" element="sd" onmouseup="ttlay(11,this,event)"&gt;&lt;img src="./Welcome to ebs 4_files/pixel.gif" alt="" title=""&gt;&lt;/div&gt;&lt;div id="LM_dockLeftDiv" class="tsplitter" style="height: 5px; position: absolute; top: 150px; left: 50px; visibility: hidden;" element="s0" onmousedown="ttlay(10,this,event)"&gt;&lt;img src="./Welcome to ebs 4_files/pixel.gif" alt="" title=""&gt;&lt;/div&gt;&lt;div id="LM_dockRightDiv" class="tsplitter" style="height: 5px; position: absolute; top: 150px; left: 50px; visibility: hidden;" element="s1" onmousedown="ttlay(10,this,event)"&gt;&lt;img src="./Welcome to ebs 4_files/pixel.gif" alt="" title=""&gt;&lt;/div&gt;&lt;div id="LM_dockTopDiv" class="tsplitter" style="height: 5px; position: absolute; top: 150px; left: 50px; visibility: hidden;" element="s2" onmousedown="ttlay(10,this,event)"&gt;&lt;img src="./Welcome to ebs 4_files/pixel.gif" alt="" title=""&gt;&lt;/div&gt;&lt;div id="LM_dockBottomDiv" class="tsplitter" style="height: 5px; position: absolute; top: 150px; left: 50px; visibility: hidden;" element="s3" onmousedown="ttlay(10,this,event)"&gt;&lt;img src="./Welcome to ebs 4_files/pixel.gif" alt="" title=""&gt;&lt;/div&gt;&lt;div id="LM_dockdragDiv" style="display: none; border: 3px ridge rgb(136, 128, 128); position: absolute; top: 50px; left: 100px; width: 300px; height: 250px; z-index: 500; background: url(https://ebs4portal-live.cpit.ac.nz/ebs_common/skin/46/pixel.gif) repeat;" element="dd" onmouseup="ttlay(11,this,event)"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;ttlayout_CreateElements(true)&lt;/script&gt;&lt;/form&gt;
+  
+
+&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+</root>
