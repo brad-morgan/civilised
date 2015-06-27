@@ -60,5 +60,42 @@ namespace Civilised.Models
         {
            return HashCodeGenerator.GenerateHashCode(14341, 14243, CourseCode, Description, StartDate, EndTime, StartTime, EndTime, Location);
         }
+        /// <summary>
+        /// Determines whether the specified <see cref="TimetableEvent"/> instance is equal to this one.
+        /// </summary>
+        /// <param name="obj">The instance to compare to.</param>
+        /// <returns>true if the instances are equal, false otherwise.</returns>
+        public bool Equals(TimetableEvent obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            else
+            {
+                return this.CourseCode == obj.CourseCode && this.Description == obj.Description && this.EndDate == obj.EndDate && this.EndTime == obj.EndTime &&
+                       this.Location == obj.Location && this.StartDate == obj.StartDate && this.StartTime == obj.StartTime;
+            }
+        }
+        /// <summary>
+        /// Determines whether the specified <see cref="obect"/> is equal to this one.
+        /// </summary>
+        /// <param name="obj">The instance to compare to.</param>
+        /// <returns>true if the instances are equal, false otherwise.</returns>
+        public override bool Equals(object obj)
+        {
+            if(obj == null)
+            {
+                return false;
+            }
+            if(obj is TimetableEvent)
+            {
+                return Equals((TimetableEvent)obj);
+            }
+            else
+            {
+            return base.Equals(obj);
+            }
+        }
     }
 }

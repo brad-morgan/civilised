@@ -31,7 +31,6 @@ namespace Civilised.Tests
        [Fact]
        public void InstancesWithSamePropertyValuesHaveSameHashCode()
        {
-           //FIXME: Reduce setup code size. Possibly a test data class?
            var instanceA = new TimetableEvent() 
            {
                CourseCode = "IS206",
@@ -54,6 +53,31 @@ namespace Civilised.Tests
            };
            
            Assert.Equal(instanceA.GetHashCode(), instanceB.GetHashCode());
+       }
+       [Fact]
+       public void InstancesWithEqualPropertiesAreConsideredEqual()
+       {
+           var instanceA = new TimetableEvent() 
+           {
+               CourseCode = "IS206",
+               Description = "Professional Practice",
+               StartDate=DateTime.Today,
+               EndDate=DateTime.Today.AddDays(7*10),
+               StartTime=DateTime.Now,
+               EndTime=DateTime.Now.AddHours(2),
+               Location="L210"
+           };
+           var instanceB = new TimetableEvent()
+           {
+               CourseCode = "IS206",
+               Description = "Professional Practice",
+               StartDate = DateTime.Today,
+               EndDate = DateTime.Today.AddDays(7 * 10),
+               StartTime = DateTime.Now,
+               EndTime = DateTime.Now.AddHours(2),
+               Location = "L210"
+           };
+           Assert.Equal(instanceA,instanceB);
        }
        //FIXME: Need to add tests to do range checks on dates and times. e.g. StartTime can't be after end time etc.
     }
